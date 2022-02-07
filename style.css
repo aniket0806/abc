@@ -1,0 +1,115 @@
+*{
+    padding:0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    /* background-color: aquamarine; */
+}
+
+#left{
+    width: 50%;
+    min-height:inherit ;
+    background-color: rgba(249, 178, 5 , 100%);
+   
+}
+
+#right{
+    width: 70%;
+    min-height: inherit;
+    background-color: white
+}
+
+#left #ion{
+ display: flex;
+    justify-content: space-evenly;
+ margin: 20px;
+}
+#ion i{
+    font-size: 15px;
+}
+#tag{
+     display: flex;
+    justify-content: space-evenly;
+  margin: 20px;
+ }
+#right #tag a{
+     text-decoration: none;
+     color: black;
+
+}
+#pic{
+    width: 500px;
+    height: 500px;
+    background: url(https://images.unsplash.com/photo-1603008626490-ef1c1fa49968?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1964&q=80);
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+}
+#right #text{
+    
+    width: 35%;;
+    height: 400px;
+    /* background-color: brown; */
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+}
+#text h1{
+    font-size: 52px;
+}
+#text p{
+    padding-bottom: 30px;
+    margin-top: 20px;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+#text a{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    align-items: center;
+}
+#text i{
+    padding-bottom: 30px;
+}
+#one{
+    z-index: 9999;
+    width: 40px;
+    height: 10px;
+    
+    
+}
+#main #line{
+position: absolute;
+top: 4%;
+left: 51.5%;
+    width: 50px;
+    height: 10px;
+    background-color: rgb(233, 150, 55);
+}
+#arrow {
+    position: absolute;
+     top: 43%;
+     left: 25%;
+     
+    background-color:transparent;
+    border-bottom: 10px solid transparent;
+    border-top: 10px solid transparent ; 
+    border-right: 10px solid transparent;
+     border-left: 10px solid black; 
+
+}
+
